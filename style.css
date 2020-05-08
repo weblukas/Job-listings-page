@@ -155,6 +155,27 @@ body {
         margin-left: 20px;
     }
 
-  
+}
 
+@media (max-width: 710px){
+    .center {
+        min-width: 330px;
+        margin: 0 auto;
+    }
+
+    .job-listing {
+        width: 327px;
+        margin: 0 auto;
+    }
+
+    .job-listing__icon {
+        width: 50px;
+        margin: -55px 0
+    }
+
+    .middle-l {
+        position: static;
+        margin: 20px 0 0;
+        font-size: 12px;
+    }
 }
