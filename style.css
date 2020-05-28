@@ -12,6 +12,7 @@ body {
 .wrapper{
     width: 1440px;
     margin: 0 auto;
+    padding-bottom: 80px;
     background-color: #f0fafb;
 }
 .top-bg {
@@ -123,6 +124,7 @@ body {
 }
 .attribution a {
     text-decoration: none;
+    color:#5DA5A4;
 }
 
 @media (max-width: 1440px) {
@@ -165,7 +167,7 @@ body {
 
     .job-listing {
         width: 327px;
-        margin: 0 auto;
+        margin: 50px auto;
     }
 
     .job-listing__icon {
@@ -175,7 +177,23 @@ body {
 
     .middle-l {
         position: static;
-        margin: 20px 0 0;
+        margin: 70px 0 0;
         font-size: 12px;
+    }
+
+    hr {
+        width: 90%;
+        border-top: 1px solid #cdd0d0;
+        margin: 30px auto
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        padding: 0;
+    
+    }
+
+    .skills__item {
+        margin-bottom: 15px;
     }
 }
