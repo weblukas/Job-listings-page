@@ -114,16 +114,21 @@ body {
     padding: 5px;
     color: #5DA5A4;
     font-weight: bold;
+    
     background-color: #f0fafb;
     border-radius: 5px;
     box-shadow: 4px 3px 8px 1px rgba(0, 0, 0, 0.24);
     transition: 0.2s all;
 }
 
-.skills__item:active {
+.skills__item:hover {
     cursor: pointer;
     background-color: #5DA5A4;
     color: #fff;
+}
+.skills__item:active {
+    transform: scale(0.98);
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.24);
 }
 .attribution {
     width: 40vw;
