@@ -1,264 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Job Listings</title>
-  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Item Start -->
-  <div class="wrapper">
-  <img src="images/bg-header-desktop.svg" class="top-bg">
-  <div class="center">
-    <div class="job-listing">
-      <img src="images/photosnap.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Photosnap</div>
-        <div class="employee__status new">NEW!</div>
-        <div class="employee__status featured">FEATURED</div>
-      </div>
-      <h3 class="job-title">Senior Frontend Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">1d ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">USA only</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="senior">Senior</div>
-        <div class="skills__item" data-languages="html">HTML</div>
-        <div class="skills__item" data-languages="css">CSS</div>
-        <div class="skills__item" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/manage.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Manage</div>
-        <div class="employee__status  new">NEW!</div>
-        <div class="employee__status  featured">FEATURED</div>
-      </div>
-      <h3 class="job-title">Fullstack Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">1d ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Part Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Remote</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="fullstack">Fullstack</div>
-        <div class="skills__item" data-level="midweight">Midweight</div>
-        <div class="skills__item" data-languages="python">Python</div>
-        <div class="skills__item" data-languages="react">React</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/account.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Account</div>
-        <div class="employee__status new">NEW!</div>
-      </div>
-      <h3 class="job-title">Junior Frontend Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">2d ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Part Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">USA only</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="junior">Junior</div>
-        <div class="skills__item" data-languages="react">React</div>
-        <div class="skills__item" data-languages="sass">Sass</div>
-        <div class="skills__item" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/myhome.svg" class="job-listing__icon">
-      <div class="middle-l">
-        <div class="employee">
-          <div class="employee__name">MyHome</div>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:;base64,=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Job Listings</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Item Start -->
+    <div class="wrapper">
+      <img src="images/bg-header-desktop.svg" class="top-bg" />
+      <div class="center">
+        <div class="job-listing">
+          <img src="images/photosnap.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Photosnap</div>
+              <div class="employee__status new">NEW!</div>
+              <div class="employee__status featured">FEATURED</div>
+            </div>
+            <h3 class="job-position">Senior Frontend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">1d ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">USA only</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="senior">Senior</div>
+            <div class="skills__item" data-info="html">HTML</div>
+            <div class="skills__item" data-info="css">CSS</div>
+            <div class="skills__item" data-info="javascript">JavaScript</div>
+          </div>
         </div>
-        <h3 class="job-title">Junior Frontend Developer</h3>
-        <div class="job-details">
-          <span class="job-details__item">5d ago</span>
-          <span class="dot"></span>
-          <span class="job-details__item">Contract</span>
-          <span class="dot"></span>
-          <span class="job-details__item">USA only</span>
+        <div class="job-listing">
+          <img src="images/manage.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Manage</div>
+              <div class="employee__status new">NEW!</div>
+              <div class="employee__status featured">FEATURED</div>
+            </div>
+            <h3 class="job-position">Fullstack Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">1d ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Part Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Remote</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="fullstack">Fullstack</div>
+            <div class="skills__item" data-info="midweight">Midweight</div>
+            <div class="skills__item" data-info="python">Python</div>
+            <div class="skills__item" data-info="react">React</div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/account.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Account</div>
+              <div class="employee__status new">NEW!</div>
+            </div>
+            <h3 class="job-position">Junior Frontend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">2d ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Part Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">USA only</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="junior">Junior</div>
+            <div class="skills__item" data-info="react">React</div>
+            <div class="skills__item" data-info="sass">Sass</div>
+            <div class="skills__item" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/myhome.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">MyHome</div>
+            </div>
+            <h3 class="job-position">Junior Frontend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">5d ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Contract</span>
+              <span class="dot"></span>
+              <span class="job-details__item">USA only</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="junior">Junior</div>
+            <div class="skills__item" data-info="css">CSS</div>
+            <div class="skills__item" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/loop-studios.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Loop Studios</div>
+            </div>
+            <h3 class="job-position">Software Engineer</h3>
+            <div class="job-details">
+              <span class="job-details__item">1w ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Worldwide</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="fullstack">Fullstack</div>
+            <div class="skills__item" data-info="midweight">Midweight</div>
+            <div class="skills__item" data-info="javascript">JavaScript</div>
+            <div class="skills__item" data-info="sass">Sass</div>
+            <div class="skills__item one" data-info="ruby">Ruby</div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/faceit.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Faceit</div>
+            </div>
+            <h3 class="job-position">Junior Backend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">2w ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">UK only</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="backend">Backend</div>
+            <div class="skills__item" data-info="junior">Junior</div>
+            <div class="skills__item" data-info="ruby">Ruby</div>
+            <div class="skills__item" data-info="ror">RoR</div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/shortly.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Shortly</div>
+            </div>
+            <h3 class="job-position">Junior Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">2w ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Worldwide</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="junior">Junior</div>
+            <div class="skills__item" data-info="html">HTML</div>
+            <div class="skills__item" data-info="sass">Sass</div>
+            <div class="skills__item one" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/insure.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Insure</div>
+            </div>
+            <h3 class="job-position">Junior Frontend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">2d ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">USA only</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="senior">Junior</div>
+            <div class="skills__item" data-info="vue">Vue</div>
+            <div class="skills__item" data-info="sass">Sass</div>
+            <div class="skills__item one" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img src="images/eyecam-co.svg" class="job-listing__icon" />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">Eyecam Co.</div>
+            </div>
+            <h3 class="job-position">Senior Frontend Developer</h3>
+            <div class="job-details">
+              <span class="job-details__item">3w ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Full Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Worldwide</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="fullstack">Fullstack</div>
+            <div class="skills__item" data-info="midweight">Midweight</div>
+            <div class="skills__item" data-info="django">Django</div>
+            <div class="skills__item" data-info="python">Python</div>
+            <div class="skills__item one" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="job-listing">
+          <img
+            src="images/the-air-filter-company.svg"
+            class="job-listing__icon"
+          />
+          <div class="info-panel">
+            <div class="company-info">
+              <div class="company-info__name">The Air Filter Company</div>
+            </div>
+            <h3 class="job-position">Front-end Devr</h3>
+            <div class="job-details">
+              <span class="job-details__item">1mo ago</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Part Time</span>
+              <span class="dot"></span>
+              <span class="job-details__item">Worldwide</span>
+            </div>
+          </div>
+          <hr />
+          <div class="skills">
+            <div class="skills__item" data-info="frontend">Frontend</div>
+            <div class="skills__item" data-info="junior">Junior</div>
+            <div class="skills__item" data-info="react">React</div>
+            <div class="skills__item" data-info="sass">Sass</div>
+            <div class="skills__item one" data-info="javascript">
+              JavaScript
+            </div>
+          </div>
         </div>
       </div>
-      <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="junior">Junior</div>
-        <div class="skills__item" data-languages="css">CSS</div>
-        <div class="skills__item" data-languages="javascript">JavaScript</div>
-      </div>
     </div>
-    <div class="job-listing">
-      <img src="images/loop-studios.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Loop Studios</div>
-      </div>
-      <h3 class="job-title">Software Engineer</h3>
-      <div class="job-details">
-        <span class="job-details__item">1w ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Worldwide</span>
-      </div>
+    <!--end of wrapper -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
     </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="fullstack">Fullstack</div>
-        <div class="skills__item" data-level="midweight">Midweight</div>
-        <div class="skills__item" data-languages="javascript">JavaScript</div>
-        <div class="skills__item" data-languages="sass">Sass</div>
-        <div class="skills__item one" data-languages="ruby">Ruby</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/faceit.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Faceit</div>
-      </div>
-      <h3 class="job-title">Junior Backend Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">2w ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">UK only</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="backend">Backend</div>
-        <div class="skills__item" data-level="junior">Junior</div>
-        <div class="skills__item" data-languages="ruby">Ruby</div>
-        <div class="skills__item" data-languages="ror">RoR</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/shortly.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Shortly</div>
-      </div>
-      <h3 class="job-title">Junior Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">2w ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Worldwide</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="junior">Junior</div>
-        <div class="skills__item" data-languages="html">HTML</div>
-        <div class="skills__item" data-languages="sass">Sass</div>
-        <div class="skills__item one" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/insure.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Insure</div>
-      </div>
-      <h3 class="job-title">Junior Frontend Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">2d ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">USA only</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="senior">Junior</div>
-        <div class="skills__item" data-languages="vue">Vue</div>
-        <div class="skills__item" data-languages="sass">Sass</div>
-        <div class="skills__item one" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/eyecam-co.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">Eyecam Co.</div>
-      </div>
-      <h3 class="job-title">Senior Frontend Developer</h3>
-      <div class="job-details">
-        <span class="job-details__item">3w ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Full Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Worldwide</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="fullstack">Fullstack</div>
-        <div class="skills__item" data-level="midweight">Midweight</div>
-        <div class="skills__item" data-languages="django">Django</div>
-        <div class="skills__item" data-languages="python">Python</div>
-        <div class="skills__item one" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-    <div class="job-listing">
-      <img src="images/the-air-filter-company.svg" class="job-listing__icon">
-      <div class="middle-l">
-      <div class="employee">
-        <div class="employee__name">The Air Filter Company</div>
-      </div>
-      <h3 class="job-title">Front-end Devr</h3>
-      <div class="job-details">
-        <span class="job-details__item">1mo ago</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Part Time</span>
-        <span class="dot"></span>
-        <span class="job-details__item">Worldwide</span>
-      </div>
-    </div>
-    <hr>
-      <div class="skills">
-        <div class="skills__item" data-role="frontend">Frontend</div>
-        <div class="skills__item" data-level="junior">Junior</div>
-        <div class="skills__item" data-languages="react">React</div>
-        <div class="skills__item" data-languages="sass">Sass</div>
-        <div class="skills__item one" data-languages="javascript">JavaScript</div>
-      </div>
-    </div>
-  </div>
- </div>  <!--end of wrapper -->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
-  </div>
-  <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* outline: 1px greenyellow solid; */
 }
 
 body {
@@ -40,20 +39,20 @@ body {
 }
 
 .job-listing__icon {
-    margin-left: 30px;
+    margin-left: 30px; 
 }
 
-.middle-l {
+.info-panel {
     position: absolute;
     left: 150px;
 }
-.employee {
+.company-info {
     display: flex;
     align-items: center;
     font-size: 12px;
 }
 
-.employee > div {
+.company-info > div {
     height: 25px;
     display: flex;
     align-items: center;
@@ -79,7 +78,7 @@ body {
     background-color: #000;
 }
 
-.job-title {
+.job-position {
     font-size: 18px;
     padding: 15px 0;
 }
@@ -165,7 +164,7 @@ body {
         margin: 30px auto;
     }  
 
-    .middle-l {
+    .info-panel {
         margin-left: 20px;
     }
 
@@ -187,7 +186,7 @@ body {
         margin: -55px 0
     }
 
-    .middle-l {
+    .info-panel {
         position: static;
         margin: 70px 0 0;
         font-size: 12px;
@@ -208,4 +207,12 @@ body {
     .skills__item {
         margin-bottom: 15px;
     }
+}
+
+.hide {
+    display: none;
+}
+
+.grey {
+    background-color: grey;
 }
